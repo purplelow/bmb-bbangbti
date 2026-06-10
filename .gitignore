@@ -32,6 +32,8 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+# NEXT_PUBLIC_* 공개 값만 있는 파일 — CI 빌드에서 필요해 커밋함
+!.env.production
 
 # vercel
 .vercel
