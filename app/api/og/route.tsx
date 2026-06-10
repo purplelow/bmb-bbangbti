@@ -1,7 +1,5 @@
 import { ImageResponse } from "next/og";
 
-export const runtime = "edge";
-
 const config = {
   sweet: {
     title: "달콤 몽상가",
